@@ -1,0 +1,116 @@
+<br><br>
+
+<!--Each section is choosen by ngIf and de name of the menu *ngIf="openSection == 'Install'" -->
+<div *ngIf="openSection == 'Install'">
+
+    <div class="row">
+        <div class="col">
+
+            <div class="card" style="width: 19rem;">
+                <div class="card-body">
+                    <h5 class="card-title">Start an application</h5>
+                    <p class="card-text">
+                        There's a tool named CLI, it is the easy way to mange an Angular application, so we will install CLI, after that create our aplication. Go to terminal and type:
+                        <code>
+                            <br> $> npm install -g @angular/cli 
+                            <br> $> ng new my-dream-app 
+                            <br> $> cd my-dream-app
+                            <br> $> ng serve
+                        </code>
+
+
+                    </p>
+                    <a href="https://cli.angular.io/" class="btn btn-primary" target="_blank">Learn more</a>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+
+            <div class="card" style="width: 19rem;">
+                <a href="../../../../assets/folder-files.png" target="_blank">
+                    <div class="mask flex-center">
+                        <img src="../../../../assets/folder-files.png" class="card-img-top zoom" alt=".">
+                    </div>
+                </a>
+                <div class="card-body">
+                    <h5 class="card-title">The application folders</h5>
+                    <p class="card-text">This is the skeleton of our application, for now the important folder is my-app/scr/app/.</p>
+                    <a href="https://www.tektutorialshub.com/angular/angular-folder-structure-best-practices/" target="_blank" class="btn btn-primary">Learn more</a>
+                </div>
+            </div>
+
+        </div>
+        <div class="col">
+
+            <div class="card" style="width: 19rem;">
+                <a href="../../../../assets/hello-world.png" target="_blank">
+                    <div class="mask flex-center">
+                        <img src="../../../../assets/hello-world.png" class="card-img-top zoom" alt=".">
+                    </div>
+                </a>
+
+                <div class="card-body">
+                    <h5 class="card-title">Find a file and edit</h5>
+                    <p class="card-text">In app folder we will find:
+                        <mark>
+                            <br><strong>app.component.html</strong>
+                            <br>app.component.ts
+                            <br>app.component.scss
+                        </mark>. <br> Delete all the content int the .html and write
+                        <code>&lt;h1&gt;Hello World!&lt;h1&gt;</code> save.
+                    </p>
+                    <a href="#" class="btn btn-primary">Learn more</a>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+
+            <div class="card" style="width: 19rem;">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Put some color!</h5>
+                    <p class="card-text">Next, edit scss, here we will change our style, type then .</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+
+        </div>
+        <div class="col">
+
+            <div class="card" style="width: 19rem;">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+
+        </div>
+        <div class="col">
+
+            <div class="card" style="width: 19rem;">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+</div>
+
+
+<div *ngIf="openSection == 'Test'">
+
+    <div> THIS IS Test SECTION</div>
+
+</div>

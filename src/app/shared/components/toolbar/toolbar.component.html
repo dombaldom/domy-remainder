@@ -1,0 +1,55 @@
+<div class="container-flex">
+    <mat-toolbar [color]="primaryTheme">
+
+        <i class="fas fa-bars mr-3" [ngClass]="{
+        'rotateimg-pos': toggle,
+        'rotateimg-neg': !toggle
+      }" (click)="oculta(sidenav)"></i>
+
+        <span>My Learning Path {{titleToolBar}}</span>
+        <span class="space-bar"></span>
+        <section class="webdesigntuts-workshop">
+
+            <input ng-model="searchInput" class="input-format  mr-3" placeholder="Search" (input)="onSearchChange($event.target.value)">
+
+        </section>
+
+        <i class="fab fa-twitter mr-3"></i>
+        <i class="fab fa-github mr-3"></i>
+
+    </mat-toolbar>
+
+    <mat-sidenav-container>
+        <mat-sidenav #sidenav [(opened)]="opened" mode="side">
+
+            <mat-accordion>
+                <mat-expansion-panel *ngFor="let item of menu;">
+                    <mat-expansion-panel-header>
+                        <mat-panel-title>
+                            {{item.main}}
+                        </mat-panel-title>
+                    </mat-expansion-panel-header>
+                    <ng-template matExpansionPanelContent>
+                        <mat-action-row *ngFor="let i of item.topics;">
+                            <button mat-button (click)="setTopic(i.topic)">{{i.topic}}</button>
+                        </mat-action-row>
+                    </ng-template>
+                </mat-expansion-panel>
+            </mat-accordion>
+
+
+        </mat-sidenav>
+
+        <mat-sidenav-content>
+
+            <div class="container">
+
+                <div *ngIf="titleToolBar == 'Angular'">
+                    <app-langular [openSection]="topic"></app-langular>
+                </div>
+
+
+            </div>
+
+        </mat-sidenav-content>
+    </mat-sidenav-container>

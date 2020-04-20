@@ -1,0 +1,31 @@
+<div class="{{background}}">
+
+    <app-top-bar (emitterpic)="setWallPaper($event)">
+
+
+    </app-top-bar>
+
+    <div class="text-centre-style">
+        <div>DOMINGO BALDERAS</div>
+        <div>
+            <hr>
+        </div>
+        <div class="text-small-style d-flex justify-content-center">PROGRAMMER & MAKER</div>
+
+        <div class="row">
+            <div class="col d-flex justify-content-end ml-5">
+                <button (click)='openProfile()'>
+                <div>PROFILE</div>
+            </button>
+            </div>
+            <div class="col d-flex justify-content-start mr-5">
+                <button [routerLink]="['/projects']">
+                <div>MENU</div>
+            </button>
+            </div>
+        </div>
+
+    </div>
+
+
+</div>

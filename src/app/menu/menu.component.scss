@@ -1,0 +1,76 @@
+$font-color-menu:  rgb(255, 247, 240) ;
+$margin-text:  2vh;
+
+
+.mexico {
+    background-image: url("/assets/mexico.jpg");
+}
+
+.london {
+    background-image: url("/assets/london.jpg");
+}
+
+.prague {
+    background-image: url("/assets/prague.jpg");
+}
+
+.moscu {
+    background-image: url("/assets/moscu.jpg");
+}
+
+.block1 {
+    min-height: 100%;
+    min-width: 100%;
+    position: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.text-centre-style {
+    position: absolute;
+    float: left;
+    top: 49%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 300%;
+    color: $font-color-menu;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.text-small-style {
+    font-size: 60%;
+    color: $font-color-menu;
+    font-family: 'Franklin Gothic ', 'Arial Narrow', Arial, sans-serif;
+    font-weight: lighter;
+    margin-bottom: $margin-text;
+}
+
+
+
+hr { 
+    display: block;
+    margin-top: 0;
+    margin-bottom: $margin-text;
+    margin-left: 30%;
+    margin-right: 30%;
+    border-style: inset;
+    border-width: 4px;
+    color: $font-color-menu;
+  } 
+
+  button {
+      background-color: transparent !important;
+      border-color: $font-color-menu;
+      border-style: solid;
+      border-radius: 1vh;
+      border-width: 2px;
+      width: 75%;
+      padding-left: 2vh;
+      padding-right: 2vh;
+      div {
+          font-size: 40%;
+          color: $font-color-menu;
+      }
+  }

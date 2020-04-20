@@ -1,0 +1,65 @@
+.space-bar {
+    flex: 1 1 auto;
+}
+
+.space-icon {
+    margin: 2px 15px;
+}
+
+i.fas {
+    font-size: 1.2em;
+}
+
+i.fab {
+    font-size: 1.2em;
+}
+
+.input-format {
+    border: thin;
+    padding: 1px;
+    border-radius: 25px;
+    font-size: .7em;
+    text-indent: 9%;
+}
+
+::placeholder {
+    opacity: .3;
+}
+
+.webdesigntuts-workshop input {
+    background: rgb(255, 255, 255);
+    width: 190px;
+}
+
+.webdesigntuts-workshop input:focus {
+    width: 240px;
+    transition: 1s;
+}
+
+.mat-sidenav-container {
+    position: absolute;
+    // height: 100%;
+    min-height: 100%;
+    //width: 100%;
+    min-width: 100%;
+}
+
+//************************
+// Efecto para cerrar componente izquierdo
+.rotateimg-pos {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+    transition: all 1s ease-in-out;
+}
+
+.rotateimg-neg {
+    -webkit-transform: rotate(-360deg);
+    -moz-transform: rotate(-360deg);
+    -ms-transform: rotate(-360deg);
+    -o-transform: rotate(-360deg);
+    transform: rotate(-360deg);
+    transition: all 1s ease-in-out;
+}
