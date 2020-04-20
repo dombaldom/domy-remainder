@@ -1,21 +1,19 @@
-$font-color-menu:  rgb(255, 247, 240) ;
-$margin-text:  2vh;
-
-
+$font-color-menu : rgb(255, 247, 240);
+$margin-text : 2vh;
 .mexico {
-    background-image: url("/assets/mexico.jpg");
+    background-image: url("./assets/mexico.jpg");
 }
 
 .london {
-    background-image: url("/assets/london.jpg");
+    background-image: url("./assets/london.jpg");
 }
 
 .prague {
-    background-image: url("/assets/prague.jpg");
+    background-image: url("./assets/prague.jpg");
 }
 
 .moscu {
-    background-image: url("/assets/moscu.jpg");
+    background-image: url("./assets/moscu.jpg");
 }
 
 .block1 {
@@ -25,7 +23,6 @@ $margin-text:  2vh;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-
 }
 
 .text-centre-style {
@@ -47,9 +44,7 @@ $margin-text:  2vh;
     margin-bottom: $margin-text;
 }
 
-
-
-hr { 
+hr {
     display: block;
     margin-top: 0;
     margin-bottom: $margin-text;
@@ -58,19 +53,19 @@ hr {
     border-style: inset;
     border-width: 4px;
     color: $font-color-menu;
-  } 
+}
 
-  button {
-      background-color: transparent !important;
-      border-color: $font-color-menu;
-      border-style: solid;
-      border-radius: 1vh;
-      border-width: 2px;
-      width: 75%;
-      padding-left: 2vh;
-      padding-right: 2vh;
-      div {
-          font-size: 40%;
-          color: $font-color-menu;
-      }
-  }
+button {
+    background-color: transparent !important;
+    border-color: $font-color-menu;
+    border-style: solid;
+    border-radius: 1vh;
+    border-width: 2px;
+    width: 75%;
+    padding-left: 2vh;
+    padding-right: 2vh;
+    div {
+        font-size: 40%;
+        color: $font-color-menu;
+    }
+}
