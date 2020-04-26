@@ -1,0 +1,432 @@
+<br><br>
+
+<!--Each section is choosen by ngIf and de name of the menu *ngIf="openSection == 'Introduction'" -->
+<div *ngIf="openSection == 'Introduction'">
+
+    <div class="row">
+        <div class="col">
+
+            <div class="card" style="width: 19rem;">
+                <div class="card-body">
+                    <h5 class="card-title">What is a limit?, easy please!</h5>
+                    <p class="card-text">
+                        A value we get closer and closer to, but never quite reach, the annotation is:
+                        <br> <img src="https://latex.codecogs.com/gif.latex?\lim_{x\to a}f(x)=L" title="\lim_{x\to a}f(x)=L" />
+                        <br> We can test limits from left side or from right side, both most be equal from both directions:
+                        <img src="https://latex.codecogs.com/gif.latex?\lim_{x\to a^{&amp;plus;}}f(x)==\lim_{x\to a^{-}}f(x)" title="\lim_{x\to a^{+}}f(x)==\lim_{x\to a^{-}}f(x)" />
+                        <br> if not the limit doesn't exist!
+                    </p>
+                    <a href="https://cli.angular.io/" class="btn btn-primary" target="_blank">Learn more</a>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+
+            <div class="card" style="width: 19rem;">
+                <a href="./assets/limit-example1.png" target="_blank">
+                    <div class="mask flex-center">
+                        <img src="./assets/limit-example1.png" class="card-img-top zoom" alt=".">
+                    </div>
+                </a>
+                <div class="card-body">
+                    <h5 class="card-title">Graphic example 1</h5>
+                    <p class="card-text">
+                        A) The limit from left=4, the limit from right=-5 because are different the limit doesn't exist
+                        <br> B) The limit is equal from left and right: 1, so it exist however f(8) and limit are different.
+                        <br> C) The limit is equal from left and right: 1, so it exist
+
+                    </p>
+                    <a href="https://www.tektutorialshub.com/angular/angular-folder-structure-best-practices/" target="_blank" class="btn btn-primary">Learn more</a>
+                </div>
+            </div>
+
+        </div>
+        <div class="col">
+
+            <div class="card" style="width: 19rem;">
+                <a href="./assets/limit-example2.png" target="_blank">
+                    <div class="mask flex-center">
+                        <img src="./assets/limit-example2.png" class="card-img-top zoom" alt=".">
+                    </div>
+                </a>
+
+                <div class="card-body">
+                    <h5 class="card-title">Graphic example 2</h5>
+                    <p class="card-text">What is the limit of f(x) = 1/x at 0: <br>
+                        <img src="https://latex.codecogs.com/gif.latex?\lim_{x\to0^{&amp;plus;}}f(x) != \lim_{x\to0^{-}}f(x)" title="\lim_{x\to0^{+}}f(x)==\lim_{x\to0^{-}}f(x)" />
+                        <br> therefore the limit doesn't exist at 0
+                        <br> But what about when x gets to infinity then 1/x is going towards 0
+                        <br> therefore the limit exists! when x gets to infinity.
+                    </p>
+                    <a href="#" class="btn btn-primary">Learn more</a>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+    <br>
+
+    <div class="row">
+
+        <div class="col">
+            <div class="card" style="width: 19rem;">
+                <a href="./assets/properties-limits.jpg" target="_blank">
+                    <div class="mask flex-center">
+                        <img src="./assets/properties-limits.jpg" class="card-img-top zoom" alt=".">
+                    </div>
+                </a>
+
+                <div class="card-body">
+                    <h5 class="card-title">Properties of limits</h5>
+                    <p class="card-text">Here you go a properties of limits! </p>
+                    <a href="https://scotch.io/tutorials/all-the-ways-to-add-css-to-angular-2-components" target="_blank" class="btn btn-primary">Learn more</a>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="col">
+            <div class="card" style="width: 19rem;">
+
+                <div class="card-body">
+                    <h5 class="card-title">How to find a limit</h5>
+                    <p>
+                        Let's try to find
+                        <img src="https://latex.codecogs.com/gif.latex?\lim_{x\to a}f(x)" title="\lim_{x\to a}f(x)" />
+                        <br><strong>Direct subtitution.</strong>
+                    </p>
+                    <ul>
+                        <li value="1">f(a) = L limit limit exist at this point</li>
+                        <li value="2">f(a) = b/0 Vertical Asymptote, limit does not exist</li>
+                        <li value="3">f(a) = 0/0 Indeterminate form, try rewriting limit using</li>
+                        <br> - Factoring - Conjugate - Trig identities and evaluate
+                    </ul>
+                    <a href="https://www.tutorialmines.net/files-explanation-angular-7/" target="_blank" class="btn btn-primary">Learn more</a>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="col">
+
+            <div class="card" style="width: 19rem;">
+                <div class="card-body">
+                    <h5 class="card-title">Sandwich.</h5>
+                    <p class="card-text">If f(x) &lt;= g(x) &lt;= h(x) then <br></p>
+                    <img src="https://latex.codecogs.com/gif.latex?\lim_{x\to c}f(x)&lt;=\lim_{x\to c}g(x) &lt;= \lim_{x\to c}h(x)" title="\lim_{x\to c}f(x)&lt;=\lim_{x\to c}g(x) &lt;= \lim_{x\to c}h(x)" />
+
+                    <a href="https://www.javaguides.net/2019/06/angular-8-hello-world-example-tutorial.html" target="_blank" class="btn btn-primary">Learn more</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <br>
+
+    <div class="row">
+
+        <div class="col">
+            <div class="card" style="width: 19rem;">
+
+
+                <div class="card-body">
+                    <h5 class="card-title">Discontinuities</h5>
+
+                    <p class="card-text">Discontinuities can be classified as:</p>
+                    <ul>
+                        <li value="1">Jump: both one-sided limits exist, but have different values</li>
+                        <li value="2">Infinite: both one-sided limits are infinite</li>
+                        <li value="3">Endpoint: only one of the one-sided limits exists</li>
+                        <li value="4">Mixed: at least one of the one-sided limits does not exist</li>
+                    </ul>
+                    <a href="https://scotch.io/tutorials/all-the-ways-to-add-css-to-angular-2-components" target="_blank" class="btn btn-primary">Learn more</a>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="col">
+            <div class="card" style="width: 19rem;">
+
+                <div class="card-body">
+                    <h5 class="card-title">How to find a limit</h5>
+                    <p>
+                        Let's try to find
+                        <img src="https://latex.codecogs.com/gif.latex?\lim_{x\to a}f(x)" title="\lim_{x\to a}f(x)" />
+                        <br><strong>Direct subtitution.</strong>
+                    </p>
+                    <ul>
+                        <li value="1">f(a) = L limit limit exist at this point</li>
+                        <li value="2">f(a) = b/0 Vertical Asymptote, limit does not exist</li>
+                        <li value="3">f(a) = 0/0 Indeterminate form, try rewriting limit using</li>
+                        <br> - Factoring - Conjugate - Trig identities and evaluate
+                    </ul>
+                    <a href="https://www.tutorialmines.net/files-explanation-angular-7/" target="_blank" class="btn btn-primary">Learn more</a>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="col">
+
+            <div class="card" style="width: 19rem;">
+                <div class="card-body">
+                    <h5 class="card-title">Sandwich.</h5>
+                    <p class="card-text">If f(x) &lt;= g(x) &lt;= h(x) then <br></p>
+                    <img src="https://latex.codecogs.com/gif.latex?\lim_{x\to c}f(x)&lt;=\lim_{x\to c}g(x) &lt;= \lim_{x\to c}h(x)" title="\lim_{x\to c}f(x)&lt;=\lim_{x\to c}g(x) &lt;= \lim_{x\to c}h(x)" />
+
+                    <a href="https://www.javaguides.net/2019/06/angular-8-hello-world-example-tutorial.html" target="_blank" class="btn btn-primary">Learn more</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+</div>
+
+
+<!--Each section is choosen by ngIf and de name of the menu *ngIf="openSection == 'Introduction'" -->
+<div *ngIf="openSection == 'Discontinuities'">
+
+    <div class="row">
+
+        <div class="col">
+            <div class="card" style="width: 19rem;">
+
+
+                <div class="card-body">
+                    <h5 class="card-title">Discontinuities</h5>
+
+                    <p class="card-text">Discontinuities can be classified as:</p>
+                    <ul>
+                        <li value="1">Jump: both one-sided limits exist, but have different values</li>
+                        <li value="2">Infinite: both one-sided limits are infinite</li>
+                        <li value="3">Endpoint: only one of the one-sided limits exists</li>
+                        <li value="4">Mixed: at least one of the one-sided limits does not exist</li>
+                        <li value="5">Removable: are characterized by the fact that the limit exists but f(a) is different to the limit. Removable discontinuities can be "fixed" by re-defining the function.</li>
+
+                    </ul>
+                    <a href="https://scotch.io/tutorials/all-the-ways-to-add-css-to-angular-2-components" target="_blank" class="btn btn-primary">Learn more</a>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="col">
+            <div class="card" style="width: 19rem;">
+
+                <div class="card-body">
+                    <h5 class="card-title">Continuity at a point</h5>
+                    <p>
+                        Consider f(x). We say that it is continuous at the point x=a if it is satisfied that the side limits of f(x) in x=a coincide with the value of the function at x=a:
+                        <br>
+                        <img src="https://latex.codecogs.com/gif.latex?\lim_{x\to a^{&amp;plus;}}f(x)=\lim_{x\to a^{-}}f(x)=f(a)" title="\lim_{x \to a^{+}}f(x) = \lim_{x \to a^{-}}f(x) = f(a)" />
+                        <br>
+                    </p>
+
+                    <a href="https://www.tutorialmines.net/files-explanation-angular-7/" target="_blank" class="btn btn-primary">Learn more</a>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="col">
+
+            <div class="card" style="width: 19rem;">
+                <div class="card-body">
+                    <h5 class="card-title">Continuity in a closed interval</h5>
+                    <p class="card-text">We hava 3 forms of continuity:<br></p>
+                    <ul>
+                        <li value="1">continuity at a point: f is continuos at x=c when:<br>
+                            <img src="https://latex.codecogs.com/gif.latex?\lim_{x\to c}f(x)=f(c)" title="\lim_{x \to a^{+}}f(x) = \lim_{x \to a^{-}}f(x) = f(a)" />
+                        </li>
+                        <li value="2">continuity at an opened interval: f is continuos at (a, b) when
+                            <br> f is continuos at each point of interval (1)
+                        </li>
+                        <li value="3">continuity at an closed interval: f is continuos at [a, b] when
+                            <br> f is continuos at closed interval (a,b) (2) and
+                            <br> <img src="https://latex.codecogs.com/gif.latex?\lim_{x \to a^{&amp;plus;}}f(x) = f(a) " title="\lim_{x \to a^{+}}f(x) = f(a) " /> <strong> and </strong>
+                            <br> <img src="https://latex.codecogs.com/gif.latex?\lim_{x \to b^{-}}f(x) = f(b)" title="\lim_{x \to b^{-}}f(x) = f(b)" />
+                        </li>
+
+                    </ul>
+
+
+                    <a href="https://www.javaguides.net/2019/06/angular-8-hello-world-example-tutorial.html" target="_blank" class="btn btn-primary">Learn more</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <br>
+
+    <div class="row">
+
+        <div class="col">
+            <div class="card" style="width: 19rem;">
+                <a href="./assets/limit-example3.png" target="_blank">
+                    <div class="mask flex-center">
+                        <img src="./assets/limit-example3.png" class="card-img-top zoom" alt=".">
+                    </div>
+                </a>
+
+
+                <div class="card-body">
+                    <h5 class="card-title">Limits and inifinity</h5>
+
+                    <p class="card-text">For the next limit
+                        <img src="https://latex.codecogs.com/gif.latex?\lim_{x\to \infty } 1/x " title="\lim_{x\to \infty " /> <br> we have an horizontal asymptote, it means as x go close and close to infinity left or right side, the value of x go to
+                        0 as you can see in the graphic above.
+
+                    </p>
+                    <a href="https://scotch.io/tutorials/all-the-ways-to-add-css-to-angular-2-components" target="_blank" class="btn btn-primary">Learn more</a>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="col">
+            <div class="card" style="width: 19rem;">
+
+                <div class="card-body">
+                    <h5 class="card-title">Limits to infinity for rational functions</h5>
+                    <p>
+                        Consider
+                        <img src="https://latex.codecogs.com/gif.latex?f(x) = \frac{6x^{5}&amp;plus;3x^{4}&amp;plus;2x^{3}}{2x^{5}&amp;plus;8x}" title="f(x) = \frac{6x^{5}+3x^{4}+2x^{3}}{2x^{5}+8x}" />
+                        <br> to calculete the limit when x goes to infinity just take the highest degree variable at denominator and numerator then calculate the limit.
+                        <br> It's because the highest degree domains the final result both denominator and numerator
+
+                    </p>
+
+                    <a href="https://www.tutorialmines.net/files-explanation-angular-7/" target="_blank" class="btn btn-primary">Learn more</a>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="col">
+
+            <div class="card" style="width: 19rem;">
+                <div class="card-body">
+                    <h5 class="card-title">Limits to infinity for rational functions example</h5>
+                    <p class="card-text">
+
+                        <img src="https://latex.codecogs.com/gif.latex?\lim_{x\to \infty }\frac{6x^{5}&amp;plus;3x^{4}&amp;plus;2x^{3}}{2x^{5}&amp;plus;8x}" title="f(x) = \frac{6x^{5}+3x^{4}+2x^{3}}{2x^{5}+8x}" />
+                        <br> We pick up the highest degree at denominator and numerator and calculate the limit:
+                        <link rel="manifest" href="./manifest.json">
+                        <br>
+                        <img src="https://latex.codecogs.com/gif.latex?\\ \frac{6x^{5}}{2x^{5}} \\ \\ \frac{6}{2}" title="\\ \frac{6x^{5}}{2x^{5}} \\ \\ \frac{6}{2}" />
+                    </p>
+
+
+                    <a href="https://www.javaguides.net/2019/06/angular-8-hello-world-example-tutorial.html" target="_blank" class="btn btn-primary">Learn more</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</div>
+
+
+<!--Each section is choosen by ngIf and de name of the menu *ngIf="openSection == 'Introduction'" -->
+<div *ngIf="openSection == 'Intermediate value theorem'">
+
+    <div class="row">
+
+        <div class="col">
+            <div class="card" style="width: 19rem;">
+
+
+                <div class="card-body">
+                    <h5 class="card-title">What is the intermediate value theorem?</h5>
+
+                    <p class="card-text">for any function f that's continuous over the interval [a,b], the function will take any value between f(a) and f(b) over the interval.
+
+                    </p>
+
+                    <a href="https://scotch.io/tutorials/all-the-ways-to-add-css-to-angular-2-components" target="_blank" class="btn btn-primary">Learn more</a>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="col">
+            <div class="card" style="width: 19rem;">
+
+                <div class="card-body">
+                    <h5 class="card-title">Intermediate value theorem example</h5>
+                    <p>
+                        Consider the continuous function f with the following table of values. Let's find out where must there be a solution to the equation f(x)=2
+                        <br>
+                    </p>
+                    <table style="width:100%">
+                        <tr>
+                            <th>f(x)</th>
+                            <td>Lastname</td>
+                            <td>Age</td>
+                        </tr>
+                        <tr>
+                            <th>x</th>
+                            <td>Smith</td>
+                            <td>50</td>
+                        </tr>
+                    </table>
+
+                    <a href="https://www.tutorialmines.net/files-explanation-angular-7/" target="_blank" class="btn btn-primary">Learn more</a>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="col">
+
+            <div class="card" style="width: 19rem;">
+                <div class="card-body">
+                    <h5 class="card-title">Continuity in a closed interval</h5>
+                    <p class="card-text">We hava 3 forms of continuity:<br></p>
+                    <ul>
+                        <li value="1">continuity at a point: f is continuos at x=c when:<br>
+                            <img src="https://latex.codecogs.com/gif.latex?\lim_{x\to c}f(x)=f(c)" title="\lim_{x \to a^{+}}f(x) = \lim_{x \to a^{-}}f(x) = f(a)" />
+                        </li>
+                        <li value="2">continuity at an opened interval: f is continuos at (a, b) when
+                            <br> f is continuos at each point of interval (1)
+                        </li>
+                        <li value="3">continuity at an closed interval: f is continuos at [a, b] when
+                            <br> f is continuos at closed interval (a,b) (2) and
+                            <br> <img src="https://latex.codecogs.com/gif.latex?\lim_{x \to a^{&amp;plus;}}f(x) = f(a) " title="\lim_{x \to a^{+}}f(x) = f(a) " /> <strong> and </strong>
+                            <br> <img src="https://latex.codecogs.com/gif.latex?\lim_{x \to b^{-}}f(x) = f(b)" title="\lim_{x \to b^{-}}f(x) = f(b)" />
+                        </li>
+
+                    </ul>
+
+
+                    <a href="https://www.javaguides.net/2019/06/angular-8-hello-world-example-tutorial.html" target="_blank" class="btn btn-primary">Learn more</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</div>
+
+<div *ngIf="openSection == 'Test'">
+
+    <div> THIS IS Test SECTION</div>
+
+</div>

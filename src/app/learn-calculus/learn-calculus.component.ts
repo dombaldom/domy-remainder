@@ -8,8 +8,8 @@ import { Component, OnInit } from '@angular/core';
 export class LearnCalculusComponent implements OnInit {
   // This will send data to children, the menu is title, and topics
   menulist = [
-    {main: 'LIMITS', topics:
-      [{topic: 'What is it?'}, {topic: 'Test'}, {topic: 'Hello World'}, {topic: 'Server'}]
+    {main: 'LIMITS AND CONTINUITY', topics:
+      [{topic: 'Introduction'}, {topic: 'Discontinuities'}, {topic: 'Intermediate value theorem'}]
     },
     {main: 'INTERMIDIA', topics:
       [{topic: 'Messages'}, {topic: 'Input'}, {topic: 'Output'}, {topic: 'Other'}]
